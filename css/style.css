@@ -209,6 +209,7 @@ main {
     display: flex;
     gap: 1px;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 #rodape > div {
