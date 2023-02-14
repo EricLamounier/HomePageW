@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Frontend Mentor | News homepage</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="fade"></div>
+  <main> 
+    <div id="root">
+      <header id=cabecalho>
+        <div id="logo"><img src="assets/images/logo.svg" alt="logo"/></div>
+        <input type="checkbox" id="menuChk">
+        <div id="divMenu">
+          <label for="menuChk"><div id="menuLogo"></div></label>
+          <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </div>
+      </header>
+      <div id="box">
+        <div id="boxLeft">
+          <div id="img"></div>
+          <div id="boxText">
+            <h2 class="text">The Bright Future of Web 3.0?</h2>
+            <div class="text">
+              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?</p>
+                <button type="button" id="bttnReadMore">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div id="boxRight">
+          <h2>New</h2>
+          <div>
+            <h3 class="title">Hydrogen VS Electric Cars</h3>
+            <p class="content">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div>
+            <h3 class="title">The Downsides of AI Artistry</h3>
+            <p class="content">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div>
+            <h3 class="title">Is VC Funding Drying Up?</h3>
+            <p class="content">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+      </div>
+      <footer id="rodape">
+        <div>
+          <div><img src="assets/images/image-retro-pcs.jpg" alt="retro pcs"/></div>
+          <div>
+            <h3 class="number">01</h3>
+            <h4 class="title">Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div>
+          <div><img src="assets/images/image-top-laptops.jpg" alt="laptops"/></div>
+          <div>
+            <h3 class="number">02</h3>
+            <h4 class="title">Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div>
+          <div><img src="assets/images/image-gaming-growth.jpg" alt="gaming growth"/></div>
+          <div>
+            <h3 class="number">03</h3>
+            <h4 class="title">The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>
