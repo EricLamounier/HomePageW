@@ -1,8 +1,8 @@
 # Home Page W
 
 <div align="center" style="margin: 10px">
-    <img style="height: 240px; object-fit: cover; margin-right: 10px;" src="git/desktop.jpg" alt="notebook preview">
-    <img style="height: 240px" src="git/mobile.jpg" alt="notebook preview">
+    <img style="height: 240px; object-fit: cover; margin-right: 10px;" src="git/desktop.jpg" alt="desktop preview">
+    <img style="height: 240px" src="git/mobile.jpg" alt="mobile preview">
 </div>
 
 Projeto construído utilizando os conceitos básicos de HTML5, CSS3 com fogo no flex-box.
